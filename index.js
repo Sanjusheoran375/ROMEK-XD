@@ -95,8 +95,8 @@ async function start() {
                 }
             } else if (connection === 'open') {
                 if (initialConnection) {
-                    console.log(chalk.green("😃ROMEK-XD-CONNECTED Successful️✅ JOIN FOR MORE UPDATE🥏 https://whatsapp.com/channel/0029VakaPzeD38CV78dbGf0e"));
-                    Matrix.sendMessage(Matrix.user.id, { text: `😃ROMEK-XD-CONNECTED Successful️✅ JOIN FOR MORE UPDATE🥏 https://whatsapp.com/channel/0029VakaPzeD38CV78dbGf0e` });
+                    console.log(chalk.green("😃ROMEK-XD-CONNECTED Successful️✅ JOIN FOR MORE UPDATE🥏 https://chat.whatsapp.com/CcQomqX6rsFKOpvdVFk6OF"));
+                    Matrix.sendMessage(Matrix.user.id, { text: `😃ROMEK-XD-CONNECTED Successful️✅ JOIN FOR MORE UPDATE🥏 https://chat.whatsapp.com/CcQomqX6rsFKOpvdVFk6OF` });
                     initialConnection = false;
                 } else {
                     console.log(chalk.blue("♻️ Connection reestablished after restart."));
